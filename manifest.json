@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Free Subtitle Transator",
+    "description": "Traduce automaticamente los subtitulos de los videos.",
+    "version": "0.0.1",
+    "icons": {
+      "32": "images/playstore-icon.png"
+    },
+    "permissions": [
+     
+    ],
+    "browser_action": {
+      "default_icon": "images/playstore-icon.png",
+      "default_popup": "views/index.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [ "http://*/*", "https://*/*", "file:///*/*"],
+        "all_frames": true,
+        "css": ["styles/index.css"]
+      }
+    ]
+   }
+   

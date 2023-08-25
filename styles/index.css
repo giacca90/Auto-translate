@@ -1,0 +1,10 @@
+.head {
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+}
+
+.content {
+    width: 400px;
+    height: 200px;
+}
